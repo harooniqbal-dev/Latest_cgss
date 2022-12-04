@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --light-gray: #005691;
+    --padding: 3rem;
+    --res-padding: 1.5rem;
+}
+
+.course_info{
+    padding: 1rem var(--padding) 2.5rem;
+}
+.course_info .m_title_line{
+    margin-top: 10px;
+}
+.course_info .detail_title_line{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.course_info ul{
+    padding-left: 30px;
+}
+
+@media (max-width: 991px) {
+    .course_info {
+        padding: 3rem var(--res-padding);
+    }
+ 
+}

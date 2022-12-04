@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --light-gray: #005691;
+    --padding: 3rem;
+    --res-padding: 1.5rem;
+}
+.MV__statement {
+    padding: 2rem var(--padding) 2.5rem;
+}
+.MV__statement .mission__div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.MV__statement .title {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.MV__statement .mission_content {
+    flex: 0 0 70%;
+    width: 70%;
+    padding: 0px 20px 0px 0px;
+}
+.MV__statement .history__list {
+    padding-left: 20px;
+    margin-top: 5px;
+}
+.MV__statement .MV__image {
+    flex: 0 0 30%;
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MV__statement .MV__image.latest_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.MV__statement .Cgss__compuses {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0px 0px;
+}
+.MV__statement .Cgss__compuses .card__compuses {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.MV__statement .Cgss__compuses .card__compuses img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1100px) {
+    .MV__statement .Cgss__compuses .card__compuses {
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+}
+
+@media (max-width: 991px) {
+    .MV__statement .MV__image {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 15px;
+    }
+    .MV__statement .mission_content {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 10px;
+    }
+    .MV__statement .Cgss__compuses .card__compuses {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 667px) {
+    .MV__statement {
+        padding: 1.5rem var(--res-padding) 2.5rem;
+    }
+    .MV__statement .Cgss__compuses .card__compuses {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

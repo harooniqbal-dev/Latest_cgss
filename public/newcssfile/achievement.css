@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --light-gray: #005691;
+    --padding: 3rem;
+    --res-padding: 1.5rem;
+}
+
+.achievement__section {
+    padding: 1rem var(--padding) 2.5rem;
+}
+.achievement__section .achievement__div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.achievement__section .achievement__div .left_table {
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding-right: 5px;
+}
+.achievement__section .achievement__div .right_table {
+    flex: 0 0 70%;
+    max-width: 70%;
+    padding-left: 5px;
+}
+
+.achiev_pic {
+    display: flex;
+    flex-wrap: wrap;
+}
+.achiev_pic .left_image,
+.achiev_pic .right_image {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 10px;
+}
+.achiev_pic .left_image img,
+.achiev_pic .right_image img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 991px) {
+    .achievement__section {
+        padding: 3rem var(--res-padding);
+    }
+    .achievement__section .achievement__div .right_table,
+    .achievement__section .achievement__div .left_table {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0px;
+        margin-top: 10px;
+    }
+    .achiev_pic .left_image,
+    .achiev_pic .right_image {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}

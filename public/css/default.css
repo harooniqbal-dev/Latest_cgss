@@ -1,0 +1,50 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Educan Education HTML Template.
+  Template URI: #
+  Description: Educan is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: HasTech
+  Author URI: https://themeforest.net/user/hastech/portfolio
+  Version: 1.0
+-----------------------------------------------------------------------------------*/
+
+
+
+/*======================================
+
+[  Table of contents  ]
+
+
+  01. Reset
+  02. Helper Classes
+  03. Typography
+` 04. Transtion
+  05. Images
+  06. Bg-Color
+  07. Social Icon Text Color
+  08. Social Icon Bg Color
+  09. Text Color
+  10. Bg Images
+  11. Background overlay
+  12. Background Black Overlay
+  13. Input
+  14. Basic margin padding
+  15. Margin top
+  16. Margin bottom
+  17. Padding top
+  18. Padding bottom
+  19. Page section padding
+  20. Page section margin
+  21. Custom cloumn
+  22. Moz Placeholder
+
+[ End table content ]
+======================================*/
+
+/*
+
+    font-family: 'Roboto Slab', serif;
+
+    font-family: 'Raleway', sans-serif;
+
+*/
+*,h1,h2,h3,h4,h5,h6,p,ul,a{margin:0;padding:0}.fix{overflow:hidden}.browserupgrade{margin:.2em 0;background:#ccc;color:#000;padding:.2em 0}html{font-size:100%}@media all and (max-width: 768px){html{font-size:87.5%}}body{font-family:'Raleway',sans-serif;color:#747474;font-weight:400;font-size:14px;line-height:24px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}p{font-family:'Raleway',sans-serif;color:#747474;font-weight:400;font-size:14px;line-height:24px}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:'Roboto Slab',serif;color:#333;font-weight:400;font-variant-ligatures:common-ligatures;margin-top:0;margin-bottom:0}h1,.h1{font-size:64px;font-weight:700}h2,.h2{font-size:28px;font-weight:700}h3,.h3{font-size:14px;font-weight:400}h4,.h4{font-size:14px;font-weight:400}h5,.h5{font-size:18px;font-weight:400}h6,.h6{font-size:16px;font-weight:300}@media all and (max-width: 767px){h1,.h1{font-size:30px;font-weight:400}h2,.h2{font-size:24px}h3,.h3{font-size:20px}h4,.h4{font-size:16px}h5,.h5{font-size:16px}h6,.h6{font-size:16px}}ul,ol{list-style:none}ol{list-style-type:upper-roman;list-style-position:inside}strong{font-weight:600}hr{margin:1.625em 0;border-color:#e6e6e6}a:hover,a:focus,a:active{text-decoration:none;outline:none}a{color:#fff}a:hover,a:focus,a:active{color:#f36371}p a:hover,p a:focus,p a:active{color:#f36371}h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:inherit}body{overflow-x:hidden}a,.btn{-webkit-transition:all .3s ease-out 0;-moz-transition:all .3s ease-out 0;-ms-transition:all .3s ease-out 0;-o-transition:all .3s ease-out 0;transition:all .3s ease-out 0}input,select,textarea{-webkit-transition:all .5s ease-out 0;-moz-transition:all .5s ease-out 0;-ms-transition:all .5s ease-out 0;-o-transition:all .5s ease-out 0;transition:all .5s ease-out 0}img,.img{max-width:100%;transition:all .3s ease-out 0}p + img,img:last-child{margin-bottom:0}body{background:#fff}input[type=text],input[type=email],input[type=password]{width:100%}textarea{resize:none;background:#f36371;border:1px solid #f36371;padding:10px;width:100%;font-size:14px}textarea:focus{background:transparent;border:1px solid #f36371;outline:none}

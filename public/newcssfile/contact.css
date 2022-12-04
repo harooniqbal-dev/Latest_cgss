@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --light-gray: #005691;
+    --padding: 3rem;
+    --res-padding: 1.5rem;
+}
+.htc__contact__area {
+    padding: 3rem var(--padding);
+    margin-bottom: 30px;
+}
+.htc__contact__area .contact__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.htc__contact__area .contact__form,
+.htc__contact__area .contact__wrap {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 10px;
+}
+
+.contact__wrap .title__style--2 {
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.contact__wrap p {
+    margin-bottom: 21px;
+}
+
+.cont__icon span {
+    color: #333333;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.cont__icon i {
+    color: #005691;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.contact__address p a {
+    color: #666666;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.contact__address p a:hover {
+    color: #f36371;
+}
+
+.contact__address p {
+    margin-bottom: 0;
+    padding-left: 32px;
+    text-align: left;
+}
+
+.cont__icon {
+    margin-bottom: 0;
+}
+
+.contact__address {
+    border-bottom: 1px solid #f0f0f0;
+    border-top: 1px solid #f0f0f0;
+    padding: 27px 0 21px;
+}
+
+.contact__title {
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-bottom: 12px;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.contact__title::before {
+    background: #f5b120 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 133px;
+}
+
+.contact-form-wrap .form__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-form-wrap .input__div {
+    flex: 0 0 50%;
+    max-width: 50%;
+    /* padding: 10px; */
+}
+.contact-form-wrap .input__div.left__input {
+    padding-right: 5px;
+}
+.contact-form-wrap .input__div.right__input {
+    padding-left: 5px;
+}
+.contact-form-wrap textarea,
+.contact-form-wrap input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid lightgray;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.contact-form-wrap textarea::placeholder,
+.contact-form-wrap input::placeholder {
+    color: gray;
+    font-size: 15px;
+}
+.contact-btn {
+    margin-top: 30px;
+}
+
+.contact-box input::-moz-placeholder {
+    color: #909090 !important;
+}
+
+.contact-box textarea::-moz-placeholder {
+    color: #909090 !important;
+    opacity: 1;
+}
+
+.contact-btn .htc__btn {
+    border: 1px solid #005691;
+}
+
+.contact-btn .htc__btn:hover {
+    border: 1px solid #f36371;
+}
+
+.contact-btn .btn--theme {
+    height: 35px;
+    line-height: 34px;
+    padding: 0 20px;
+}
+
+.btn--theme {
+    background: #005691 none repeat scroll 0 0;
+    color: #fff;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 38px;
+}
+
+.htc__btn {
+    background: #005691 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-family: "Roboto Slab";
+    font-size: 15px;
+    font-weight: 700;
+    height: 48px;
+    line-height: 48px;
+    overflow: hidden;
+    padding: 0 38px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.btn--theme:hover::after {
+    height: 462%;
+}
+
+.htc__btn:hover::after {
+    height: 400%;
+    opacity: 1;
+}
+
+.btn--theme::after {
+    background: #f36371 none repeat scroll 0 0;
+}
+
+.htc__btn::after {
+    background: #f36371 none repeat scroll 0 0;
+    height: 0;
+    left: 50%;
+    opacity: 0;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    width: 100%;
+    content: "";
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    z-index: -1;
+}
+
+@media (max-width: 991px) {
+    .htc__contact__area .contact__form,
+    .htc__contact__area .contact__wrap {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 667px) {
+    .htc__contact__area {
+        padding: 3rem var(--res-padding);
+    }
+    .contact-form-wrap .input__div {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .contact-form-wrap .input__div.right__input,
+    .contact-form-wrap .input__div.left__input {
+        padding: 0;
+    }
+}

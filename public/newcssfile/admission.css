@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light-gray: #005691;
+    --padding: 3rem;
+    --res-padding: 1.5rem;
+}
+.admission_info{
+    padding: 3rem var(--padding);
+}
+.addmission__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+.addmission__row .information_desk{
+    flex: 0 0 33%;
+    max-width: 33%;
+    padding: 0px 1.5rem;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.addmission__row .information_desk .innerdiv{
+    background: #f4f4f4;
+}
+.addmission__row  .image__div{
+    position: relative;
+}
+.addmission__row .adm_fig_title{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    color: #fff;
+}
+.addmission__row .information_desk .content{
+  padding: 15px;
+}
+.addmission__row .information_desk .image__div img{
+    width: 100%;
+}
+
+@media (max-width: 1100px) {
+    .addmission__row .information_desk{
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .admission_info{
+        padding: 1.5rem var(--res-padding);
+    }
+    .addmission__row .information_desk{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 10px;
+        padding: 0px 5px;
+    }
+}

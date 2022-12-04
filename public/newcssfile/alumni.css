@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --light-gray: #005691;
+    --padding: 3rem;
+    --res-padding: 1.5rem;
+}
+.alumni {
+    padding: 1rem var(--padding);
+    margin-bottom: 30px;
+}
+.alumni__data {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.alumni__data .alumi__content {
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+.alumni__data p {
+    padding: 0 20px;
+    text-align: justify;
+}
+.alumni__data .alumni__image {
+    flex: 0 0 30%;
+    max-width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.alumni__data:nth-child(4) .alumni__image img {
+    width: 100%;
+    height: 100%;
+}
+
+
